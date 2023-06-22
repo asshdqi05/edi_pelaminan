@@ -1,0 +1,27 @@
+CRITICAL - 2022-09-29 06:37:50 --> Undefined variable: level
+#0 C:\laragon\www\edi_pelaminan\app\Views\template\V_menu.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\View\View.php(424): CodeIgniter\View\View->render('template/V_menu', NULL, true)
+#4 C:\laragon\www\edi_pelaminan\app\Views\template\V_header.php(77): CodeIgniter\View\View->include('template/V_menu')
+#5 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\edi_pelaminan\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#8 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('laporan/V_lapor...', Array, true)
+#9 C:\laragon\www\edi_pelaminan\app\Controllers\C_laporan.php(43): view('laporan/V_lapor...', Array)
+#10 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_laporan->laporan_penyewaan()
+#11 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_laporan))
+#12 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-09-29 08:12:47 --> Undefined variable: total_pembayaran_sewa
+#0 C:\laragon\www\edi_pelaminan\app\Views\laporan\V_laporan_penyewaan.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 120, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('laporan/V_lapor...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_laporan.php(43): view('laporan/V_lapor...', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_laporan->laporan_penyewaan()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_laporan))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

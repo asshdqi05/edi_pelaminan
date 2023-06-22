@@ -1,0 +1,34 @@
+CRITICAL - 2022-01-31 05:27:07 --> Undefined variable: judul_halaman
+#0 C:\laragon\www\edi_pelaminan\app\Views\template\V_header.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 168, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('tes', Array, true)
+#5 C:\laragon\www\edi_pelaminan\app\Controllers\C_home.php(9): view('tes')
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_home->index()
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_home))
+#8 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\edi_pelaminan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-31 23:28:08 --> Undefined property: stdClass::$nama_level
+#0 C:\laragon\www\edi_pelaminan\app\Views\master\V_user.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 145, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('master/V_user', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_user.php(16): view('master/V_user', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 23:30:12 --> Undefined property: stdClass::$nama_level
+#0 C:\laragon\www\edi_pelaminan\app\Views\master\V_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('master/V_user', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_user.php(16): view('master/V_user', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

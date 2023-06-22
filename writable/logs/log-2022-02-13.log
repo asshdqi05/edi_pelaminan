@@ -1,0 +1,23 @@
+ERROR - 2022-02-13 22:28:30 --> Unknown column 'level' in 'field list'
+CRITICAL - 2022-02-13 22:28:30 --> Unknown column 'level' in 'field list'
+#0 C:\laragon\www\edi_pelaminan\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `penyewa...', 0)
+#1 C:\laragon\www\edi_pelaminan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `penyewa...')
+#2 C:\laragon\www\edi_pelaminan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `penyewa...')
+#3 C:\laragon\www\edi_pelaminan\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `penyewa...', Array, false)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_penyewa.php(46): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_penyewa->edit()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penyewa))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 23:30:13 --> Undefined variable: perlengkapan
+#0 C:\laragon\www\edi_pelaminan\app\Views\template_front\V_main.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 206, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('template_front/...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_front.php(14): view('template_front/...')
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_front->index()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_front))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

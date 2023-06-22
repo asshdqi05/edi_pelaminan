@@ -1,0 +1,48 @@
+CRITICAL - 2022-02-15 07:21:36 --> Undefined variable: site_url
+#0 C:\laragon\www\edi_pelaminan\app\Views\front_penyewaan\V_pembayaran.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 104, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('front_penyewaan...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_front_sewa.php(121): view('front_penyewaan...', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_front_sewa->pembayaran('5')
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_front_sewa))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-15 08:42:25 --> Undefined property: stdClass::$nama
+#0 C:\laragon\www\edi_pelaminan\app\Views\penyewaan\V_list_konfirmasi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 62, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('penyewaan/V_lis...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_konfirmasi_sewa.php(17): view('penyewaan/V_lis...', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_konfirmasi_sewa->index()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_konfirmasi_sewa))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-15 08:43:54 --> Object of class stdClass could not be converted to string
+#0 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include()
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('penyewaan/V_lis...', Array, true)
+#3 C:\laragon\www\edi_pelaminan\app\Controllers\C_konfirmasi_sewa.php(17): view('penyewaan/V_lis...', Array)
+#4 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_konfirmasi_sewa->index()
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_konfirmasi_sewa))
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-15 09:27:59 --> Undefined variable: level
+#0 C:\laragon\www\edi_pelaminan\app\Views\template\V_menu.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\View\View.php(424): CodeIgniter\View\View->render('template/V_menu', NULL, true)
+#4 C:\laragon\www\edi_pelaminan\app\Views\template\V_header.php(60): CodeIgniter\View\View->include('template/V_menu')
+#5 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\edi_pelaminan\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#8 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('master/V_penyew...', Array, true)
+#9 C:\laragon\www\edi_pelaminan\app\Controllers\C_penyewa.php(12): view('master/V_penyew...', Array)
+#10 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_penyewa->index()
+#11 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penyewa))
+#12 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}

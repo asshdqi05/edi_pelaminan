@@ -1,0 +1,23 @@
+ERROR - 2022-02-07 07:02:10 --> Unknown column 'id_penyewaan' in 'field list'
+CRITICAL - 2022-02-07 07:02:10 --> Unknown column 'id_penyewaan' in 'field list'
+#0 C:\laragon\www\edi_pelaminan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\edi_pelaminan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\edi_pelaminan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\edi_pelaminan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_sewa.php(78): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_sewa->save_sewa()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_sewa))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 23:34:20 --> Trying to get property 'tanggal' of non-object
+#0 C:\laragon\www\edi_pelaminan\app\Views\penyewaan\V_bukti_penyewaan.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 54, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('penyewaan/V_buk...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_sewa.php(95): view('penyewaan/V_buk...', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_sewa->bukti_sewa('2')
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_sewa))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

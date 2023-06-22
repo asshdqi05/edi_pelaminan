@@ -1,0 +1,128 @@
+CRITICAL - 2022-02-16 00:31:21 --> Undefined variable: judul_halaman
+#0 C:\laragon\www\edi_pelaminan\app\Views\template\V_header.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 71, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('laporan/V_index', Array, true)
+#5 C:\laragon\www\edi_pelaminan\app\Controllers\C_laporan.php(9): view('laporan/V_index')
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_laporan->index()
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_laporan))
+#8 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-16 02:12:53 --> Undefined property: stdClass::$nama
+#0 C:\laragon\www\edi_pelaminan\app\Views\laporan\V_laporan_penyewaan.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 86, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('laporan/V_lapor...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_laporan.php(44): view('laporan/V_lapor...', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_laporan->laporan_penyewaan()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_laporan))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-16 02:15:42 --> Undefined variable: db
+#0 C:\laragon\www\edi_pelaminan\app\Views\laporan\V_laporan_penyewaan.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('laporan/V_lapor...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_laporan.php(45): view('laporan/V_lapor...', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_laporan->laporan_penyewaan()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_laporan))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-16 03:08:42 --> Undefined variable: data
+#0 C:\laragon\www\edi_pelaminan\app\Views\laporan\V_saldo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 45, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('laporan/V_saldo', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_laporan.php(88): view('laporan/V_saldo', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_laporan->saldo()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_laporan))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-16 03:32:57 --> Undefined property: stdClass::$sisa
+#0 C:\laragon\www\edi_pelaminan\app\Views\laporan\V_laporan_penyewaan.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 109, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('laporan/V_lapor...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_laporan.php(43): view('laporan/V_lapor...', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_laporan->laporan_penyewaan()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_laporan))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-16 04:13:27 --> auth filter must have a matching alias defined.
+#0 C:\laragon\www\edi_pelaminan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:13:39 --> Auth filter must have a matching alias defined.
+#0 C:\laragon\www\edi_pelaminan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:13:46 --> Auth filter must have a matching alias defined.
+#0 C:\laragon\www\edi_pelaminan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:16:07 --> Auth filter must have a matching alias defined.
+#0 C:\laragon\www\edi_pelaminan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:17:40 --> Auth filter must have a matching alias defined.
+#0 C:\laragon\www\edi_pelaminan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:17:43 --> Auth filter must have a matching alias defined.
+#0 C:\laragon\www\edi_pelaminan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:17:53 --> Class 'Config\Auth' not found
+#0 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/C_home', 'before')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-16 04:20:51 --> Auth filter must have a matching alias defined.
+#0 C:\laragon\www\edi_pelaminan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:20:59 --> Class 'Config\Auth' not found
+#0 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/C_home', 'before')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-16 04:25:25 --> Class 'Config\Auth' not found
+#0 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/C_home', 'before')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-16 04:25:26 --> Class 'Config\Auth' not found
+#0 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/C_home', 'before')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-16 04:25:27 --> Class 'Config\Auth' not found
+#0 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/C_home', 'before')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-16 04:25:27 --> Class 'Config\Auth' not found
+#0 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/C_home', 'before')
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}

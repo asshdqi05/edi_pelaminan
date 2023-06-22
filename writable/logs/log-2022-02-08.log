@@ -1,0 +1,39 @@
+CRITICAL - 2022-02-08 04:04:43 --> Undefined variable: level
+#0 C:\laragon\www\edi_pelaminan\app\Views\template\V_menu.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\View\View.php(424): CodeIgniter\View\View->render('template/V_menu', NULL, true)
+#4 C:\laragon\www\edi_pelaminan\app\Views\template\V_header.php(60): CodeIgniter\View\View->include('template/V_menu')
+#5 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\edi_pelaminan\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#8 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('V_home_admin', Array, true)
+#9 C:\laragon\www\edi_pelaminan\app\Controllers\C_home.php(11): view('V_home_admin', Array)
+#10 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_home->index()
+#11 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_home))
+#12 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-02-08 04:04:53 --> Undefined variable: total
+#0 C:\laragon\www\edi_pelaminan\app\Views\penyewaan\V_bukti_penyewaan.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 78, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('penyewaan/V_buk...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_sewa.php(95): view('penyewaan/V_buk...', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_sewa->bukti_sewa('2')
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_sewa))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-08 08:22:17 --> Unknown column 'penyewaan.status' in 'where clause'
+CRITICAL - 2022-02-08 08:22:17 --> Unknown column 'penyewaan.status' in 'where clause'
+#0 C:\laragon\www\edi_pelaminan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `peny...', 0)
+#1 C:\laragon\www\edi_pelaminan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `peny...')
+#2 C:\laragon\www\edi_pelaminan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `peny...')
+#3 C:\laragon\www\edi_pelaminan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `peny...', Array, false)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_pengembalian.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_pengembalian->index()
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_pengembalian))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

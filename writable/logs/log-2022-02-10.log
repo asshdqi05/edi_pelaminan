@@ -1,0 +1,52 @@
+CRITICAL - 2022-02-10 00:36:01 --> Undefined variable: level
+#0 C:\laragon\www\edi_pelaminan\app\Views\template\V_menu.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\View\View.php(424): CodeIgniter\View\View->render('template/V_menu', NULL, true)
+#4 C:\laragon\www\edi_pelaminan\app\Views\template\V_header.php(60): CodeIgniter\View\View->include('template/V_menu')
+#5 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\edi_pelaminan\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#8 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('V_home_admin', Array, true)
+#9 C:\laragon\www\edi_pelaminan\app\Controllers\C_home.php(11): view('V_home_admin', Array)
+#10 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_home->index()
+#11 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_home))
+#12 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-02-10 01:42:52 --> Undefined property: stdClass::$status
+#0 C:\laragon\www\edi_pelaminan\app\Views\penyewaan\V_bukti_penyewaan.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 108, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('penyewaan/V_buk...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_sewa.php(104): view('penyewaan/V_buk...', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_sewa->bukti_sewa('3')
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_sewa))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-10 08:42:55 --> Undefined property: stdClass::$id_perlengkapan
+#0 C:\laragon\www\edi_pelaminan\app\Controllers\C_pengembalian.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 49, Array)
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_pengembalian->save()
+#2 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_pengembalian))
+#3 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 08:43:46 --> Undefined property: stdClass::$id_perlengkapan
+#0 C:\laragon\www\edi_pelaminan\app\Controllers\C_pengembalian.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 54, Array)
+#1 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_pengembalian->save()
+#2 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_pengembalian))
+#3 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 09:19:22 --> Undefined variable: db
+#0 C:\laragon\www\edi_pelaminan\app\Views\penyewaan\V_bukti_penyewaan.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 108, Array)
+#1 C:\laragon\www\edi_pelaminan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\edi_pelaminan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\edi_pelaminan\system\Common.php(1089): CodeIgniter\View\View->render('penyewaan/V_buk...', Array, true)
+#4 C:\laragon\www\edi_pelaminan\app\Controllers\C_sewa.php(104): view('penyewaan/V_buk...', Array)
+#5 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(825): App\Controllers\C_sewa->bukti_sewa('3')
+#6 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_sewa))
+#7 C:\laragon\www\edi_pelaminan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\edi_pelaminan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
